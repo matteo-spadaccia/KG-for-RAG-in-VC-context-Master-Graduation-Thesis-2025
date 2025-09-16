@@ -1,0 +1,18 @@
+Test-cases: 250,RAG Model Version
+Metric,ORIGINAL,UPGRADED
+Retrieval Quality (improvement: 0.96)
+Retrieval 'ER',6,0
+Retrieval 'NO',123,19
+Retrieval 'LOW',76,61
+Retrieval 'OK',45,170
+Response Quality (improvement: 0.82)
+Response 'ER',42,6
+Response 'QF',35,1
+Response 'FF',3,4
+Response 'LOW',113,82
+Response 'OK',57,157
+Average Times (s)
+Retrieval-only,3.76,18.80
+Full-RAG Retrieval,5.40,40.56
+Full-RAG Response,57.43,43.15
+Full-RAG Total,62.82,83.71
